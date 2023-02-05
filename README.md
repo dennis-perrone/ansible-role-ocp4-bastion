@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+A role to set up a bastion host used in the installation of OpenShift Container Platform (OCP) 4.
 
 Requirements
 ------------
