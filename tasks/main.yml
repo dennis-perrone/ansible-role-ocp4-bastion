@@ -4,3 +4,8 @@
 - name: Print debug message for hitting bastion role.
   ansible.builtin.debug:
     msg: Hitting playbook.
+
+- name: Create virtual machine
+  community.libvirt.virt:
+    command: list_vms
+  reegister: all_vms
