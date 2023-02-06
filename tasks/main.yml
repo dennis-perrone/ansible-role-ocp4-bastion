@@ -8,4 +8,4 @@
 - name: Create virtual machine
   community.libvirt.virt:
     command: list_vms
-  reegister: all_vms
+  register: all_vms
