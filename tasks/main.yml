@@ -1,9 +1,9 @@
 ---
 # tasks file for ansible-role-ocp4-bastion
 
-- name: Print debug message for hitting bastion role.
-  ansible.builtin.debug:
-    msg: Hitting playbook.
+# - name: Print debug message for hitting bastion role.
+#   ansible.builtin.debug:
+#     msg: Hitting playbook.
 
 - name: Create virtual machine
   community.libvirt.virt:
